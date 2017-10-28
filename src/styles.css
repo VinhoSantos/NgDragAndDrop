@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.dad-box {
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.dad-item {
+    padding: 5px;
+    border: 1px solid rgb(35, 171, 212);
+    background-color: rgb(78, 186, 219);
+    cursor: move;
+}
+
+.dad-item:not(:last-child) {
+    margin-bottom: 10px;
+}
